@@ -1,0 +1,29 @@
+*{
+    margin-top: 0px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.sec1{
+    background-image: url(https://s3.rdbuz.com/Images/responsiveweb/HomeBanner.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100vw;
+}
+
+.sec1 h1{
+    color: white;
+    font-size: 40px;
+    width: 500px;
+    position: relative;
+    top: 70px;
+    left: 100px;
+}
+
+.sub_sec1{
+    height: 300px;
+    width: 100vw;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.83),rgba(255, 255, 255, 0));
+}
