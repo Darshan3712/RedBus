@@ -4,7 +4,39 @@
     margin-right: 0;
 }
 
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+#logos img{
+    margin-left: 40px;
+}
+
+#Helps a{
+    margin-right: 80px;
+    text-decoration: none;
+    color: black;
+}
+
+#align{
+    align-items: center;
+    transform: translate(-4px);
+}
+
+a:hover{
+    color: red;
+}
+
+.logo{
+        height: 30px;
+}
+
 .sec1{
+    position: relative;
+    z-index: -2;
     background-image: url(https://s3.rdbuz.com/Images/responsiveweb/HomeBanner.webp);
     background-size: cover;
     background-position: center;
@@ -20,10 +52,100 @@
     position: relative;
     top: 70px;
     left: 100px;
+
 }
 
 .sub_sec1{
     height: 300px;
     width: 100vw;
-    background: linear-gradient(to right,rgba(0, 0, 0, 0.83),rgba(255, 255, 255, 0));
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.985),rgba(255, 255, 255, 0));
+    
 }
+
+.dept_info input{
+    height: 50px;
+    width: 230px;
+    font-size: 20px;
+    border: 1px solid black;
+    padding-left: 40px;
+}
+
+
+.dept_info{
+    position: relative;
+    left: 70px;
+    bottom: 80px;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    z-index: -2;
+    box-shadow: 0px 0px 10px black;
+    height: 100px;
+    width: 85%;
+    border-radius: 30px;
+    
+}
+
+.Search_bus a{
+    display: inline-block;
+    height: 40px;
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 25px;
+    background-color: red;
+    font-size: 14px;
+    font-weight:bold;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Search_bus{
+    position: relative;
+    margin-left: 42.5%;
+    bottom: 100px;
+}
+
+#From{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+#To{
+    position: relative;
+    transform: translate(-30px);
+        z-index: -1;
+}
+
+#date{
+    transform: translateX(-60px);
+    position: relative;
+    z-index: -1;
+    height: 52px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#svg_from{
+    transform: translate(30px);
+}
+
+#svg_date{
+    transform: translate(-30px);
+}
+
+#Booking{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+
+
+
+
